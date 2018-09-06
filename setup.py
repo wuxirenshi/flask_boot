@@ -11,12 +11,12 @@ with open("requirements.txt") as f:
     requires = [l for l in f.read().splitlines() if l]
 
 setup(
-    name='FlaskBoot',
+    name='Flask_Boot',
     version=flask_boot.__version__,
     packages=find_packages(),
     include_package_data=True,
     description='Flask application generator for boosting your development.',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     url='https://github.com/wuxirenshi/flask-boot',
     author='xxd',
     author_email='369404843@qq.com',
